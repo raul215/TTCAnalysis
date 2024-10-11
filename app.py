@@ -85,8 +85,8 @@ def visualize_top_occurrences(df):
 
 # Streamlit UI
 def main():
-    st.set_page_config(page_title="Dropbox CSV Viewer", layout="wide")
-    st.title("Dropbox Subfolder CSV Viewer")
+    st.set_page_config(page_title="TTC Data Viewer", layout="wide")
+    st.title("TTC Data Viewer")
 
     # Define your Dropbox "Dumps" folder path
     dump_folder = '/Dumps'  # Path to the main folder in Dropbox
