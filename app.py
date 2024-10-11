@@ -6,7 +6,7 @@ import os
 from st_aggrid import AgGrid, GridOptionsBuilder, DataReturnMode, GridUpdateMode
 
 # Initialize Dropbox client with your access token
-ACCESS_TOKEN = os.getenv('DROPBOX_ACCESS_TOKEN')
+ACCESS_TOKEN = st.secrets["dropbox"]["DROPBOX_ACCESS_TOKEN"]
 
 # Initialize Dropbox client with your access token
 if ACCESS_TOKEN:
